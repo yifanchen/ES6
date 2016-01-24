@@ -1,4 +1,4 @@
-var animals = [
+let animals = [
   {name: 'George',   species: 'rabbit'},
   {name: 'Hostage',  species: 'dog'},
   {name: 'Harold',   species: 'dog'},
@@ -7,12 +7,13 @@ var animals = [
   {name: 'Taium',    species: 'hamster'}
 ];
 
-var cat = animals.filter((x) => x.species === 'cat');
+let cat = animals.filter((x) => x.species === 'cat');
 
-var names = [];
-for(var i = 0; i < animals.length; i++){
+let names = [];
+for(let i = 0; i < animals.length; i++){
   if(animals[i].species === 'cat');
      names.push(animals[i].name);
 }
 
+console.log(cat);
 console.log(names);
