@@ -4,7 +4,7 @@
 // javascript supports closures.
 var me = 'George';
 function greetMe(me){
-  console.log('Hello, ' + me + '!');	
+  console.log('Hello, ' + me + '!');
 }
 me = 'Peter';
 greetMe('Kevin');

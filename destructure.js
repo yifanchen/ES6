@@ -9,10 +9,10 @@ function makeSound(options){
   var species = options.species;
   species = species || 'animals';
   var sound = options.sound;
-  console.log('The ' + species + ' says '  + sound + '!');  	
+  console.log('The ' + species + ' says '  + sound + '!');
 }
-  	
+
 // in this example of es6, function makeSound directly takes object literal from given object and applied it to itself. Improved readabality and maintainablity.
 function makeSound({ species = 'anlmal', sound }) {
-  console.log('The ' + speceis + ' says ' + sound + '!');	
+  console.log('The ' + speceis + ' says ' + sound + '!');
 }

@@ -12,10 +12,10 @@ var output = fs.readFileSync('data.txt', 'utf8')
       price: line[2],
       quantity: line[3]
     });
-    return customers; 
+    return customers;
   }, {});
 
-console.log('output:', JSON.stringify(output, null, 2)); 
+console.log('output:', JSON.stringify(output, null, 2));
 
 var orders2 = [
     ["Mark Johansson", "waffle iron", 80, 2],

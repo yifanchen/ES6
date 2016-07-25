@@ -13,7 +13,7 @@ setTimeout(function () {
 // as same as previous function, it just dosn't look like a call-back hell,
 // but is a call back hell.
 function one(cb) {
-  console.log('one');	
+  console.log('one');
   setTimeout(cb, 1000);
 }
 
@@ -32,7 +32,7 @@ one(function () {
 })
 
 function tt(callback) {
-  console.log('here is the call back');	
+  console.log('here is the call back');
   setTimeout(callback, 2000);
 }
 tt();

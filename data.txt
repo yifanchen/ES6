@@ -1,4 +1,4 @@
-George Zhao waffle iron 80 2 
+George Zhao waffle iron 80 2
 Hostage Ren blender 200 1
-George Zhao knife 10 4 
-Hostage Ren waffle iron 80 1 
+George Zhao knife 10 4
+Hostage Ren waffle iron 80 1

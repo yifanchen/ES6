@@ -10,7 +10,7 @@ var tenses = ['me', 'you', 'her'];
 var [firstperson, secondperson]  = tenses;
 
 Promose.all([promise1, promise2]).then(function(results1, results2){
-  var results1 = results;   
+  var results1 = results;
 })
 
 var name = 'George';
@@ -33,11 +33,11 @@ var likeToDo = `hi, my name is ${name}, and I like to ${ting}!`;
 //you want to use block socoping where is condition, like if(), else(), and loops. Keyword == let
 var a = 1;
 function (){
-  var b = 2;   	
+  var b = 2;
 }
 console.log(b); //2
 
-//arrow function 
+//arrow function
 var foo = function(a, b){
   return a + b;
 }
