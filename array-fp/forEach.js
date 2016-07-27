@@ -5,10 +5,10 @@ let symbols = getStockSymbols([
 ]);
 
 function getStockSymbols(lev1_holder) {
+
   let ss_return_value = [];
 
-  lev1_holder.forEach((item) => {
-    // here push whatever you like, price or volume
+  lev1_holder.forEach(item() => {
     ss_return_value.push(item.symbol);
   })
 
@@ -17,3 +17,4 @@ function getStockSymbols(lev1_holder) {
 }
 
 console.log(JSON.stringify(symbols));
+
