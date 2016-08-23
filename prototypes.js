@@ -1,4 +1,4 @@
-// what is prototype in javascript? In my understanding, prototype is the outer catgorey contains the inner object. e.x: food is prototype of burger and fries. And yes, it sounds like classes, but prototype and class are different. 
+// what is prototype in javascript? In my understanding, prototype is the outer catgorey contains the inner object. e.x: food is prototype of burger and fries. And yes, it sounds like classes, but prototype and class are different.
 
 // const food object, starts with init function and eat function, type passed as parmeter form init funciton FOOD is assigning as object literal.
 // when declare things in ES6, can use both const and let, const is immutable, vice versa is let.
