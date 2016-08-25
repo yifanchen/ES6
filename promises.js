@@ -11,22 +11,16 @@
 //})
 
 let tt = new Promise((resolve, reject) => {
-  setTimeout(() => {
-    if(true) {
-      resolve('true here');
-    }else {
-      reject('false here');
-    }
-  }, 500)
+  if(true) {
+    resolve('true here');
+  }else {
+    reject('false here');
+  }
 })
 
-tt.then(function (data) {
+tt.then((data) => {
   console.log(`Success: ${ data }`);
 })
-
-//tt.then((data) => {
-  //console.log(`Success: ${ data }`);
-//})
 
 tt.catch((error) => { console.log(`Fail: ${ error }`); })
 
